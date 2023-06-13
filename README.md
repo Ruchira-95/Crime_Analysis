@@ -45,3 +45,4 @@ In this literature review, we will analyse the approaches, algorithms, and asses
 
 
 ### Methodology
+![Picture1](https://github.com/Ruchira-95/Crime_Analysis/assets/93994154/7e1c8073-479a-46b6-9413-9d2b5afc28f6)
