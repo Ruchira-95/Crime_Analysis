@@ -42,3 +42,6 @@ The prediction of crime using deep learning and multimodal data is studied by Ka
 Numerous more sources examine various facets of crime study and forecasting. For instance, M.K. Anser et al. [8] look into the dynamic relationships between poverty, inequality, crime, and social expenditures, whereas V. Srinidhi et al. [7] use learning approaches to analyse crime scenes. Andrey Bogomolov et al. [10] explore crime prediction using mobile data and demography, while M. Suhail et al. [9] concentrate on quantile-based estimate of crime data parameters. The last complete evaluation of crime analysis and prediction utilising data mining approaches is provided by Shanjana A.S. and Dr. R. Porkodi [11].
 
 In this literature review, we will analyse the approaches, algorithms, and assessment criteria used in crime analysis and prediction and synthesise the outcomes from these studies. We'll also point out the benefits and drawbacks of current methods and suggest possible directions for further investigation. By reviewing this corpus of work, we hope to offer a thorough overview of the state of machine learning research in crime analysis and prediction, ultimately assisting in the creation of more precise and effective crime prediction systems.
+
+
+### Methodology
