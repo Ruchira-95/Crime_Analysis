@@ -45,4 +45,20 @@ In this literature review, we will analyse the approaches, algorithms, and asses
 
 
 ### Methodology
+The methodology, in short, entails gathering and preparing the data, cleaning and pre-processing 
+the data, studying and visualizing the data, choosing suitable machine learning algorithms and 
+techniques, evaluating and tuning the model, and finally deploying and testing the model. It is 
+aimed to create a trustworthy and accurate crime prediction system using this methodology that 
+will help law enforcement authorities stop and lower crime rates.
+
 ![Picture1](https://github.com/Ruchira-95/Crime_Analysis/assets/93994154/7e1c8073-479a-46b6-9413-9d2b5afc28f6)
+
+
+| **Task Assigned** | **Time allocated** |
+| --- | --- |
+| Data Collection and Preparation | 1 week |
+| Data Cleaning and Pre-Processing | 1 week |
+| Data Exploration and Visualization | 1 week |
+| Model Selection and Training | 2 week |
+| Model Evaluation and Tuning | 2 week |
+| Deployment and Testing | 2 week |
