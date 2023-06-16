@@ -225,7 +225,9 @@ In conclusion, the programme combines machine learning methods with web programm
 
 The methodology, in short, entails gathering and preparing the data, cleaning and pre-processing the data, studying and visualizing the data, choosing suitable machine learning algorithms and techniques, evaluating and tuning the model, and finally deploying and testing the model. It is aimed to create a trustworthy and accurate crime prediction system using this methodology that will help law enforcement authorities stop and lower crime rates.
 
-//picture1
+![Picture1](https://github.com/Ruchira-95/Crime_Analysis/assets/93994154/7e1c8073-479a-46b6-9413-9d2b5afc28f6)
+
+Block Diagram
 
 The steps used in the methodology are, 
 
@@ -253,12 +255,14 @@ Lastly, we will apply the machine learning model and evaluate its effectiveness 
 Below is the screenshot of the landing page for the web app development for the before mentioned project.
 
 ![Picture4](https://github.com/Ruchira-95/Crime_Analysis/assets/93994154/07f68272-ea3b-417a-8247-b3a9acd6bf51)
+
 Landing Page
 
 The pre-trained model which is now saved as a pickle file is now loaded when it is needed.
 The web application is made using flask and HTML. The main page or the home page consists of two buttons “Prediction” and “Hotspots”.
 
 ![Picture5](https://github.com/Ruchira-95/Crime_Analysis/assets/93994154/aade8ef7-fa48-4dd8-8ba7-3ed0d3fee5db)
+
 Analysis Page
 
 The “Prediction” button redirects to the analysis page where the user is asked to enter three inputs namely, date, latitude and longitude.
@@ -268,17 +272,20 @@ The “Submit” button flashes the prediction based on the given inputs.
 The ”Home” button redirects to the home page.
 
 ![Picture6](https://github.com/Ruchira-95/Crime_Analysis/assets/93994154/5452a1ea-f44d-4e5c-ad02-e4febc292c3a)
+
 Prediction Example
 
 The above image shows an example input and it’s predicted output.
 If the “Hotspot” button is clicked on the home page, then it will redirect to the crime hotspot map which was created before.
 
 ![Picture7](https://github.com/Ruchira-95/Crime_Analysis/assets/93994154/ae491583-c0a9-4a19-a34f-e98e6d136b5c)
+
 Crime Hotspot on Map
 
 If the hotspot label is clicked on it shows the crime count of that particular spot as shown in the below image.
 
 ![Picture8](https://github.com/Ruchira-95/Crime_Analysis/assets/93994154/283077df-60ac-4ec7-8bf5-3f842948794e)
+
 Crime count
 
 
