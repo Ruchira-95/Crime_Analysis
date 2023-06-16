@@ -176,7 +176,7 @@ Due to its unique benefits and adaptability for the task of predicting and analy
 
 A comprehensive solution for crime prediction and analysis is provided by the software created for the "Prediction and Analysis of Unlawful Activities" project, which comprises of multiple interrelated components. A script to create a map of crime hotspots using the Folium library is one of these components, along with a Flask-based web application for user interaction and a random forest classifier for crime prediction.
 
-5.1 Visual Studio Code
+#### 5.1 Visual Studio Code
 
 ![Picture1](https://github.com/Ruchira-95/Crime_Analysis/assets/93994154/2526918f-7e96-4655-9bc4-ca4b8e7a6723)
 Visual Studio Code
@@ -196,9 +196,32 @@ Additionally, a wide range of capabilities supported by Visual Studio Code impro
 Even when working with big codebases, Visual Studio Code maintains a high level of performance despite its extensive feature set. Even during lengthy periods of coding, it ensures a smooth experience thanks to its ability to manage memory and system resources effectively.
 In conclusion, Visual Studio Code has completely changed the way source code editors are created. It is a favourite choice for developers in a variety of industries because to its lightweight design, vast customization choices, potent debugging tools, and broad language compatibility. Visual Studio Code continues to set the bar for contemporary code editors with its ongoing innovation and active community, enabling developers to produce high-quality code quickly and easily.
 
-5.2 Training
+#### 5.2 Training
 
 The random forest classifier used in the prediction module is trained using the training code. A crime dataset that includes historical crime records and associated information is first loaded from a CSV file. In the data preprocessing stage, missing values are dealt with in order to make the dataset clean and suitable for analysis. Additional features are created from the existing data to improve the model's predicting skills. To be more precise, the year, month, day, hour, and minute are extracted from the date and time columns. These characteristics assist in identifying temporal patterns and raise the reliability of crime prediction models. After that, the dataset is divided into training and testing sets so that the model can be assessed. A StandardScaler is used to standardise the input characteristics, ensuring consistency and attribute comparability. Finally, the scaled training data is used to train the random forest classifier, which is then trained and saved for later use as "crime_model.pkl" along with the scaler.
+
+![Picture2](https://github.com/Ruchira-95/Crime_Analysis/assets/93994154/54491629-64fd-4906-83b2-0d75fb24e53b)
+Sample Dataset
+
+#### 5.3 Hotspot
+
+Based on the provided crime dataset, the hotspot code is intended to identify criminal hotspots. Similar to the training code, it reads the dataset from a CSV file and groups the data by latitude and longitude. The code calculates the frequency of criminal activity in various places by measuring the number of offences at each distinct location. In order to identify hotspots, it is necessary to set a threshold value that indicates the minimum number of crimes that must occur in a given area. A hotspot is defined as any location with a crime rate that is higher than this limit. The code uses the Folium package, which offers an interactive mapping interface, to visualise the hotspots. The mean latitude and longitude of the hotspots that were detected serve as the centre of the map of crime hotspots that was developed. On the map, each hotspot is represented by a marker that, when clicked, shows the related crime rate. The generated map is then archived as 'crime_hotspots_map.html' for quick access and dissemination.
+
+#### 5.4 Flask Web App
+
+The program's user interface is implemented in the primary code as a Flask web application. Users of the application can enter a certain date, latitude, and longitude to find out what kind of crime is most likely to happen there. The 'crime_model.pkl' file, which is loaded by the application, contains the trained random forest classifier. The classifier has learned patterns and relationships in the data by being trained on a dataset that contains a variety of crime variables. The input features are preprocessed and scaled using a StandardScaler, which is also loaded from the'scaler.pkl' file, before predictions are made. The online programme then presents the anticipated crime type on an analysis page, offering users insightful data.
+
+#### 5.5 HTML
+
+Within the Flask web application, HTML templates are used to render web pages and offer a user-friendly interface for entering data, viewing predictions, and accessing analysis findings. These designs guarantee an information presentation that is both aesthetically pleasing and user-friendly, making it simple for users to engage with the software.
+
+#### 5.6 Summary
+
+In conclusion, the programme combines machine learning methods with web programming using Flask and data visualisation with Folium to produce a complete analysis and prediction tool for criminal activity. The software enables users to make knowledgeable predictions about the kind of crime that may occur at a certain place based on historical data by utilising the power of the random forest algorithm. The hotspot detection module also aids in identifying regions where criminal activity occurs more frequently, enabling focused interventions and resource allocation. Users may smoothly engage with the programme because to the user-friendly online interface, which improves accessibility and usability.
+
+### Project Implementation
+
+The methodology, in short, entails gathering and preparing the data, cleaning and pre-processing the data, studying and visualizing the data, choosing suitable machine learning algorithms and techniques, evaluating and tuning the model, and finally deploying and testing the model. It is aimed to create a trustworthy and accurate crime prediction system using this methodology that will help law enforcement authorities stop and lower crime rates.
 
 
 
