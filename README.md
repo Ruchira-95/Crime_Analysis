@@ -171,6 +171,13 @@ Due to its unique benefits and adaptability for the task of predicting and analy
 
 6.	Predictions from various decision trees are combined via the built-in ensemble method known as random forest. Compared to single decision tree models, this built-in ensemble technique helps minimise variation and enhance stability. Multiple trees can be averaged or voted upon to reduce individual errors and produce more accurate forecasts.
 
+
+### Software Description
+
+A comprehensive solution for crime prediction and analysis is provided by the software created for the "Prediction and Analysis of Unlawful Activities" project, which comprises of multiple interrelated components. A script to create a map of crime hotspots using the Folium library is one of these components, along with a Flask-based web application for user interaction and a random forest classifier for crime prediction.
+
+5.1 Visual Studio Code
+
 | **Task Assigned** | **Time allocated** |
 | --- | --- |
 | Data Collection and Preparation | 1 week |
