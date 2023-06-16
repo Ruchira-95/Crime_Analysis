@@ -179,6 +179,7 @@ A comprehensive solution for crime prediction and analysis is provided by the so
 #### 5.1 Visual Studio Code
 
 ![Picture1](https://github.com/Ruchira-95/Crime_Analysis/assets/93994154/2526918f-7e96-4655-9bc4-ca4b8e7a6723)
+
 Visual Studio Code
 
 Microsoft created Visual Studio Code, also known as VS Code, a well-liked and potent source code editor. Due to its exceptional capabilities and versatility, it has experienced tremendous growth in popularity among programmers of many different programming languages since its release.
@@ -201,6 +202,7 @@ In conclusion, Visual Studio Code has completely changed the way source code edi
 The random forest classifier used in the prediction module is trained using the training code. A crime dataset that includes historical crime records and associated information is first loaded from a CSV file. In the data preprocessing stage, missing values are dealt with in order to make the dataset clean and suitable for analysis. Additional features are created from the existing data to improve the model's predicting skills. To be more precise, the year, month, day, hour, and minute are extracted from the date and time columns. These characteristics assist in identifying temporal patterns and raise the reliability of crime prediction models. After that, the dataset is divided into training and testing sets so that the model can be assessed. A StandardScaler is used to standardise the input characteristics, ensuring consistency and attribute comparability. Finally, the scaled training data is used to train the random forest classifier, which is then trained and saved for later use as "crime_model.pkl" along with the scaler.
 
 ![Picture2](https://github.com/Ruchira-95/Crime_Analysis/assets/93994154/54491629-64fd-4906-83b2-0d75fb24e53b)
+
 Sample Dataset
 
 #### 5.3 Hotspot
@@ -223,8 +225,7 @@ In conclusion, the programme combines machine learning methods with web programm
 
 The methodology, in short, entails gathering and preparing the data, cleaning and pre-processing the data, studying and visualizing the data, choosing suitable machine learning algorithms and techniques, evaluating and tuning the model, and finally deploying and testing the model. It is aimed to create a trustworthy and accurate crime prediction system using this methodology that will help law enforcement authorities stop and lower crime rates.
 
-![Picture2](https://github.com/Ruchira-95/Crime_Analysis/assets/93994154/54491629-64fd-4906-83b2-0d75fb24e53b)
-Sample Dataset
+//picture1
 
 The steps used in the methodology are, 
 
@@ -272,12 +273,12 @@ Prediction Example
 The above image shows an example input and it’s predicted output.
 If the “Hotspot” button is clicked on the home page, then it will redirect to the crime hotspot map which was created before.
 
-//Picture1
+![Picture7](https://github.com/Ruchira-95/Crime_Analysis/assets/93994154/ae491583-c0a9-4a19-a34f-e98e6d136b5c)
 Crime Hotspot on Map
 
 If the hotspot label is clicked on it shows the crime count of that particular spot as shown in the below image.
 
-//Picture2
+![Picture8](https://github.com/Ruchira-95/Crime_Analysis/assets/93994154/283077df-60ac-4ec7-8bf5-3f842948794e)
 Crime count
 
 
