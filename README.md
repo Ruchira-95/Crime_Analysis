@@ -178,6 +178,30 @@ A comprehensive solution for crime prediction and analysis is provided by the so
 
 5.1 Visual Studio Code
 
+![Picture1](https://github.com/Ruchira-95/Crime_Analysis/assets/93994154/2526918f-7e96-4655-9bc4-ca4b8e7a6723)
+Visual Studio Code
+
+Microsoft created Visual Studio Code, also known as VS Code, a well-liked and potent source code editor. Due to its exceptional capabilities and versatility, it has experienced tremendous growth in popularity among programmers of many different programming languages since its release.
+
+The lightweight nature of Visual Studio Code is one of its most remarkable features. It delivers a stable and feature-rich development environment yet being lightweight. It offers a large selection of extensions and supports a wide variety of programming languages, allowing developers to tailor their coding experience to suit their individual requirements. It is the perfect option for developers working on a variety of projects because of its flexibility.
+
+The user-friendly interface of Visual Studio Code is one of its main advantages. Even for people who are completely new to coding, the layout and design make it simple to use. With the editor's intelligent code completion, syntax highlighting, and code snippets, developers can write code more quickly and with fewer errors.
+
+The robust debugging features of Visual Studio Code are another noteworthy aspect. It has an extensive collection of debugging capabilities, like as breakpoints, variable inspection, and step-through debugging, which make it much easier to find and correct coding problems. Developer productivity is further increased by the seamless connection with version control tools like Git, which facilitates effective teamwork and code management.
+
+Extensibility is another feature that Visual Studio Code prioritises highly. The editor may be enhanced with new functions and language support thanks to its extensive marketplace of extensions, making it suitable for a variety of development scenarios. These add-ons cover a wide range of topics, from tools for particular programming languages or workflows to integrations with widely used frameworks and libraries.
+
+Additionally, a wide range of capabilities supported by Visual Studio Code improve productivity and simplify the development process. These consist of a built-in Git integration, integrated terminal support, live server previews, and a large ecosystem of integrated development environments (IDEs) that offer thorough tooling for certain frameworks and languages.
+
+Even when working with big codebases, Visual Studio Code maintains a high level of performance despite its extensive feature set. Even during lengthy periods of coding, it ensures a smooth experience thanks to its ability to manage memory and system resources effectively.
+In conclusion, Visual Studio Code has completely changed the way source code editors are created. It is a favourite choice for developers in a variety of industries because to its lightweight design, vast customization choices, potent debugging tools, and broad language compatibility. Visual Studio Code continues to set the bar for contemporary code editors with its ongoing innovation and active community, enabling developers to produce high-quality code quickly and easily.
+
+5.2 Training
+
+The random forest classifier used in the prediction module is trained using the training code. A crime dataset that includes historical crime records and associated information is first loaded from a CSV file. In the data preprocessing stage, missing values are dealt with in order to make the dataset clean and suitable for analysis. Additional features are created from the existing data to improve the model's predicting skills. To be more precise, the year, month, day, hour, and minute are extracted from the date and time columns. These characteristics assist in identifying temporal patterns and raise the reliability of crime prediction models. After that, the dataset is divided into training and testing sets so that the model can be assessed. A StandardScaler is used to standardise the input characteristics, ensuring consistency and attribute comparability. Finally, the scaled training data is used to train the random forest classifier, which is then trained and saved for later use as "crime_model.pkl" along with the scaler.
+
+
+
 | **Task Assigned** | **Time allocated** |
 | --- | --- |
 | Data Collection and Preparation | 1 week |
