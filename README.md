@@ -257,6 +257,15 @@ Landing Page
 The pre-trained model which is now saved as a pickle file is now loaded when it is needed.
 The web application is made using flask and HTML. The main page or the home page consists of two buttons “Prediction” and “Hotspots”.
 
+![Picture5](https://github.com/Ruchira-95/Crime_Analysis/assets/93994154/aade8ef7-fa48-4dd8-8ba7-3ed0d3fee5db)
+Analysis Page
+
+The “Prediction” button redirects to the analysis page where the user is asked to enter three inputs namely, date, latitude and longitude.
+The “Prediction” is made by using the pre defined model which was saved as pickle file.
+The analysis page has two buttons namely, “Submit” and “Home”.
+The “Submit” button flashes the prediction based on the given inputs.
+The ”Home” button redirects to the home page.
+
 
 
 | **Task Assigned** | **Time allocated** |
