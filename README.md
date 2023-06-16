@@ -251,6 +251,12 @@ Lastly, we will apply the machine learning model and evaluate its effectiveness 
 
 Below is the screenshot of the landing page for the web app development for the before mentioned project.
 
+![Picture4](https://github.com/Ruchira-95/Crime_Analysis/assets/93994154/07f68272-ea3b-417a-8247-b3a9acd6bf51)
+Landing Page
+
+The pre-trained model which is now saved as a pickle file is now loaded when it is needed.
+The web application is made using flask and HTML. The main page or the home page consists of two buttons “Prediction” and “Hotspots”.
+
 
 
 | **Task Assigned** | **Time allocated** |
