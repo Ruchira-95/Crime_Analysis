@@ -266,7 +266,22 @@ The analysis page has two buttons namely, “Submit” and “Home”.
 The “Submit” button flashes the prediction based on the given inputs.
 The ”Home” button redirects to the home page.
 
+![Picture6](https://github.com/Ruchira-95/Crime_Analysis/assets/93994154/5452a1ea-f44d-4e5c-ad02-e4febc292c3a)
+Prediction Example
 
+The above image shows an example input and it’s predicted output.
+If the “Hotspot” button is clicked on the home page, then it will redirect to the crime hotspot map which was created before.
+
+//Picture1
+Crime Hotspot on Map
+
+If the hotspot label is clicked on it shows the crime count of that particular spot as shown in the below image.
+
+//Picture2
+Crime count
+
+
+### Time Scheduled
 
 | **Task Assigned** | **Time allocated** |
 | --- | --- |
@@ -276,3 +291,41 @@ The ”Home” button redirects to the home page.
 | Model Selection and Training | 2 week |
 | Model Evaluation and Tuning | 2 week |
 | Deployment and Testing | 2 week |
+
+
+### Conclusion
+
+The goal of our project is to create a website that can accurately predict the crime on a particular location on a particular day based on the past records and generate a crime hotspot map which can be used by law enforcement agencies to work more effectively. Not just the law enforcement agencies but the tourists can also use this to know about the crime history and potential crimes of a place their about to visit beforehand and hence they can add it to one of the factor that affects their selection of a place to visit.
+
+
+### Reference
+
+[1] Roopa, Prof. Thouseef Ulla Khan (2022). CRIME ANALYSIS AND PREDICTION USING MACHINE LEARNING (IRJET).
+
+[2] Azwad Tamir, Eric Watson, Brandon Willett, Qutaiba Hasan, Jiann-Shiun Yuan(2021). Crime Prediction and Forecasting using Machine Learning Algorithms (IJCSIT).
+
+[3] Pratibha Kumari, Lokesh Chouhan, Akanksha Gahalot (2020). Crime Prediction and Analysis
+
+[4] B. Thanuja, Konda Pranitha, Challagundla Vamshi, Pabbu Naveen, Puntikura Srinivas(2022). Machine Learning Based Crime Rate Analysis Using Python (IJRASET).
+
+[5] Kang, H. and Kang, H. (2017). Prediction of crime occurrence from multimodal data using deep learning. PLOS ONE, 12(4).
+
+[6] Aziz, Rabia Musheer; Hussain, Aftab; Sharma, Prajwal; and Kumar, Pavan (2022) "Machine Learning-based Soft Computing Regression Analysis Approach for Crime Data Prediction," Karbala International Journal of Modern Science: Vol. 8 : Iss. 1 , Article 1.
+
+[7] V. Srinidhi, P. Saranya, M. Ashok, An affirmative learning techniques to analyse the crime scene in jewel theft murder, Int. Res. J. Multidiscip. Tech. 2 (2020).
+
+[8] M.K. Anser, Z. Yousaf, A.A. Nassani, S.M. Alotaibi, A. Kabbani, K. Zaman, Dynamic linkages between pov-erty, inequality, crime, and social expenditures in a panel of 16 countries: two-step GMM estimates, J. Econ. Struct. 9 (2020).
+
+[9] M. Suhail, I. Babar, Y.A. Khan, M. Imran, Z. Nawaz, Quantile-based estimation of liu parameter in the linear regression model: applications to portland cement and US crime data, Math. Probl Eng. 1 (2021).
+
+ [10] Andrey Bogomolov, Bruno Lepri, Jacopo Staiano, Nuria Oliver, Fabio Pianesi, Alex Pentland.”Once Upon a Crime: Towards Crime Prediction from Demographics and Mobile Data” ,in ACM International Conference on Multimodal Interaction (ICMI 2014)
+
+[11] Shanjana A.S, Dr. R. Porkodi (2021), CRIME ANALYSIS AND PREDICTION USING DATAMINING: A REVIEW (IJCRT).
+
+[12] Aurélien Géron, Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow, Second Edition, 2019.
+
+[13] Manning Publications, Machine Learning with TensorFlow Version 10, 2017.
+
+[14] Matthew Scarpino, Tensorflow for Dummies, 2018.
+
+
