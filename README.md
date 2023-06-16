@@ -223,6 +223,34 @@ In conclusion, the programme combines machine learning methods with web programm
 
 The methodology, in short, entails gathering and preparing the data, cleaning and pre-processing the data, studying and visualizing the data, choosing suitable machine learning algorithms and techniques, evaluating and tuning the model, and finally deploying and testing the model. It is aimed to create a trustworthy and accurate crime prediction system using this methodology that will help law enforcement authorities stop and lower crime rates.
 
+![Picture2](https://github.com/Ruchira-95/Crime_Analysis/assets/93994154/54491629-64fd-4906-83b2-0d75fb24e53b)
+Sample Dataset
+
+The steps used in the methodology are, 
+
+1.	Data Collection and Preparation:-
+Gathering and preparing the data is the first stage in creating a model that uses machine learning for analyzing and predicting crime. We will make use of a dataset that includes details on a variety of offenses, including theft, burglary, assault, and homicide, as well as pertinent elements like time, place, and demographics. If more information is needed, we will also gather it from reputable sources like law enforcement and governmental organizations.
+
+2.	Data Cleaning and Pre-Processing:-
+The data must then be cleaned and pre-processed. We will eliminate any unnecessary or redundant data, deal with missing values, and arrange the data so that machine learning algorithms can use it. To make sure that all features are on the same scale, we will also scale and normalise the features.
+
+3.	Data Exploration and Visualization:-
+We will study and display the data to obtain insights into the underlying patterns and trends prior to constructing the machine learning model. To show the data and find any relationships between the attributes, we will employ a variety of data visualization tools, including histograms, scatter plots, and heatmaps.
+
+4.	Model Selection and Training:-
+We will choose the best machine learning algorithms and methodologies after the data has been organised, cleansed, and investigated. We will compare the performance of various algorithms, including decision trees, logistic regression, and support vector machines, using various metrics, including accuracy, precision, recall, and F1-score.
+
+5.	Model Evaluation and Tuning:-
+We will assess the model's performance using a variety of evaluation measures after it has been trained. To enhance the model's performance and find the ideal collection of hyperparameters for the supplied data, we will also do hyperparameter tuning.
+
+6.	Deployment and Testing:-
+Lastly, we will apply the machine learning model and evaluate its effectiveness in the real world using fresh data. In order to assess the model's efficacy, we will also compare its performance to other crime prediction models that are already in use.
+
+
+### Experimental Results and Discussions
+
+Below is the screenshot of the landing page for the web app development for the before mentioned project.
+
 
 
 | **Task Assigned** | **Time allocated** |
